@@ -4,7 +4,10 @@
 
 cat << EOM > /var/www/html/index.html
 <html>
-  <head><title>Meow!</title></head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Meow!</title>
+  </head>
   <body>
   <div style="width:800px;margin: 0 auto">
 
